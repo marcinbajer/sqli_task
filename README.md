@@ -2,6 +2,25 @@
 Recruitment task for SQLI
 # Playwright Test Automation Setup
 
+## Where to find task files?
+### Files related to the Task #1
+All pages objects are located under 'pages' folder.
+Test file, named 'sqli_task.spec.ts' is located under test folder
+
+### Files related to the Task #2
+There are 3 folders related to this task:
+ - api which contains 'apiRequest.ts' file
+ - services which contains 'petService.ts' and 'userService.ts' files
+ - additional which contains 'petCounter.ts' file
+
+ The test file for API calls is located under 'test' folder, under name 'sqli_api_task.spec.ts'
+
+ ### Additional files
+ There are couple additional files there that I found necessary:
+ - fixtures.ts
+ - pet.type.ts (under types folder)
+ - screenshot reference (under screenshots folder)
+
 ## Prerequisites
 Before setting up the Playwright test automation project, ensure that you have the following installed:
 - [Node.js](https://nodejs.org/) (v16 or later recommended)
